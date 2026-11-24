@@ -1,0 +1,34 @@
+{
+  "version": 1,
+  "notary": {
+    "keys": [
+      {
+        "id": "notary-test-2026a",
+        "alg": "ecdsa-p256-sha256",
+        "public_key": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAE5yD4sh/TeHgfgFQCOT1eV1tAtSSVW/sVWr3Y9NP0NZVzPwrTNG9vgl2dmQaww4bOEHwz26cgFlIVHR6lef0nYA==",
+        "not_before": "2026-11-24T00:00:00Z",
+        "not_after": "2027-11-24T00:00:00Z",
+        "use": [
+          "envelope",
+          "attestation"
+        ]
+      }
+    ]
+  },
+  "models": {
+    "allow": [
+      {
+        "provider": "anthropic",
+        "ids": [
+          "claude-opus-5-5"
+        ]
+      },
+      {
+        "provider": "google",
+        "ids": [
+          "gemini-4-carbon"
+        ]
+      }
+    ]
+  }
+}
